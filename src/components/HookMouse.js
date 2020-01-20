@@ -18,6 +18,10 @@ function HookMouse() {
   useEffect(() => {
     console.log('useEffect called')
     window.addEventListener('mousemove', logMousePosition)
+    return() => {
+      console.log('component unmounted');
+      window.removeEventListener('mousemove', logMousePosition)
+    }
   }, [])
   //want effect to be called once on initial render only so put []
   //this effect doesnt depent on any state or props

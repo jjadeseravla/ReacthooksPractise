@@ -3,7 +3,7 @@
 // src/App.js
 
 import React from "react";
-import IntervalHookCounter from "./components/IntervalHookCounter";
+import DataFetching from "./components/dataFetching/DataFetching";
 // import HookCounterThree from "./components/HookCounterThree";
 
 
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-   <IntervalHookCounter />
+   <DataFetching />
     </div>
   );
 }

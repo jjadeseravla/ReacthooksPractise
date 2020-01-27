@@ -3,7 +3,7 @@
 // src/App.js
 
 import React from "react";
-import MouseContainer from "./components/MouseContainer";
+import IntervalHookCounter from "./components/IntervalHookCounter";
 // import HookCounterThree from "./components/HookCounterThree";
 
 
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-   <MouseContainer />
+   <IntervalHookCounter />
     </div>
   );
 }
